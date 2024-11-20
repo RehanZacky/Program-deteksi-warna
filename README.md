@@ -75,13 +75,13 @@ for image_name in uploaded.keys():
     detect_banana_ripeness(image_name)
 
 ```
-#Output
+# Output
 Pisang berwarna hijau :
 ![pisang hijau](https://github.com/user-attachments/assets/6b7f4832-56ef-43c3-b81e-8b1fba811c40)
 Pisang berwarna kuning :
 ![pisang kuning](https://github.com/user-attachments/assets/84b9e7ed-a600-474a-8971-f16bcb593a44)
 
-#Penjelasan
+# Penjelasan
 Jadi, program diatas digunakan untuk mendeteksi kematangan buah pisang menggunakan menggunakan sistem deteksi warna.
 Dengan menggunakan masking warna kuning dan hijau saat program mendeteksi lebih banyak warna kuning program dapat mengetahui jika buah pisang sudah matang dan saat warna hijau lebih banyak maka program mengetahui jika buah pisang belum matang, dan jika warna coklat terdeteksi maka buah tersebut dikategorikan terlalu matang.
 warna tersebut dilihat dari presentase warna yang terdeteksi.
